@@ -10,7 +10,7 @@ jam = now.strftime("%H")        #  %I
 menit = now.strftime("%M")
 detik = now.strftime("%S") 
 
-waktulokal = now.strftime("%c")      #  %x  %X
+lokal = now.strftime("%c")      #  %x  %X
 
 path = 'C:\Program Files (x86)\eSpeak\command_line\espeak.exe'
 text = str('Now is ' + hari + ', ' + str(tanggal) + ' ' + bulan + ' ' + str(tahun))
